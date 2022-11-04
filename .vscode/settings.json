@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.includeLanguages": {
+    "rust": "html"
+  },
+  "emmet.includeLanguages": {
+    "rust": "html"
+  }
+}

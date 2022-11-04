@@ -1,0 +1,15 @@
+[package]
+name = "yew-app"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+# this is the development version of Yew
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+yew-router = { git = "https://github.com/yewstack/yew.git" }
+gloo = "0.8.0"
+gloo-net = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+web-sys = { version = "0.3", features = ["HtmlDocument", "MediaQueryList", "StorageEvent", "Window"] }
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
